@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de notas</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+        <form>
+            <input type="text" required placeholder="Nome da atividade"/>
+            <input type="number" required placeholder="Nota" min="0" max="10"/>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome da atividade</th>
+                    <th>Nota</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Atividade 1</th>
+                    <th>9</th>
+                    <th>Aprovado</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Média</th>
+                    <th>9</th>
+                    <th>Aprovado</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
