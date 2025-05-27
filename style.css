@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
 }
+
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 36px;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
